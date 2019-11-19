@@ -29,8 +29,6 @@ while True:
     for i in range(len(wordToGuessList)):
         if wordToGuessList[i] == userGuess and wordToGuessList[i] != blankList[i]:
             blankList[i] = userGuess
-            print("Correct!")
-            print("")
             charCounter += 1
         elif wordToGuessList[i] == userGuess and wordToGuessList[i] == blankList[i]:
             print("Already found...")
